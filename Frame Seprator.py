@@ -15,7 +15,7 @@ else:
     print ("Successfully created the directory %s " % path)
 
 #Video Location
-string = raw_input("Enter the video location or URL : ")
+string = input("Enter the video location or URL : ")
 vidcap = cv2.VideoCapture(string)
 image = vidcap.read()
 
@@ -35,4 +35,4 @@ else:
   pass
 
 print("Done!")
-print "Total ",count-1," images Generated "
+print ("Total ",count-1," images Generated ")
